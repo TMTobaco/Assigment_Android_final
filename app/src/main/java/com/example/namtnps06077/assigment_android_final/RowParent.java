@@ -1,0 +1,33 @@
+package com.example.namtnps06077.assigment_android_final;
+
+/**
+ * Created by namtn on 06-Aug-17.
+ */
+
+public class RowParent {
+    private int icon;
+    private String text;
+
+    public int getIcon() {
+        return icon;
+    }
+
+    public void setIcon(int icon) {
+        this.icon = icon;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public RowParent(int icon, String text) {
+
+        this.icon = icon;
+        this.text = text;
+    }
+
+}
